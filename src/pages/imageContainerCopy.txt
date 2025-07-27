@@ -1,0 +1,67 @@
+ {/* Heading container */}
+      <div class="container-sm d-flex justify-content-start mt-4 mb-2">
+        <p class="text-start h2 txt-indigo">Flower Decoration</p>
+      </div>
+
+      {/* Card container */}
+      <div class="container-sm my-2 p-0  position-relative d-flex justify-content-center">
+        
+
+        {/* Service container start */}
+        <div
+          name="Service-container"
+          class="d-flex container-fluid overflow-x-scroll flex-row flex-nowrap"
+          style={{ width: "100%", scrollbarWidth: "none" }}
+        > 
+          {flowerDecoration.map((e, i) => {
+            return (
+              <div
+                class="card card-width  d-flex align-content-start m-2"
+                onMouseEnter={(e) => {
+                  hover_text_apply(e.currentTarget);
+                }}
+                onMouseLeave={(e) => {
+                  remove_hover_text(e.currentTarget);
+                }}
+              >
+                <img
+                  src={require(`../images/${e.imageName}`)}
+                  class="card-img col-sm Height-100per"
+                  alt="image"
+                />
+                <div class="card-body z-1 position-absolute rounded gradient-backgroundcolor">
+                  <h5
+                    name="text_of_card"
+                    class="card-title fs-3 text-light font-style-Dancing-script text-transition"
+                  >
+                    {e.title}
+                  </h5>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+
+        {/* previous button */}
+        {/* <div
+          class="z-1 position-absolute container-previous-button  d-flex justify-content-center align-content-center"
+          onClick={(e)=>{scrollLeft(e.currentTarget)}}
+        >
+          <span class="text-light fs-2 rounded-pill nxt-prv-btn-bag">
+            <GrPrevious />
+          </span>
+        </div> */}
+        {/* previous button END*/}
+
+        {/* Next button*/}
+        {/* <div
+          class="z-1 position-absolute container-next-button d-flex justify-content-center align-content-center"
+          onClick={(e)=>{scrollRight(e.currentTarget)}}
+        >
+          <span class="text-light fs-2 rounded-pill nxt-prv-btn-bag">
+            <GrNext />
+          </span>
+        </div> */}
+        {/* Next button End */}
+      </div>
+      {/* Service container END */}

@@ -1,0 +1,141 @@
+@media (max-width: 1440px) {
+  .autoType_font_size {
+    font-size: 60px;
+  }
+
+  .echivmentIcon {
+    font-size: 30px;
+  }
+
+  .echivmentText {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .autoType_font_size {
+    font-size: 60px;
+  }
+
+  .echivmentIcon {
+    font-size: 30px;
+  }
+
+  .echivmentText {
+    font-size: 12px;
+  }
+}
+
+/* --------------------------------------------------------- 769 */
+
+@media (max-width: 769px) {
+  .Ad_image_info {
+    bottom: 3rem;
+    left: 4rem;
+  }
+
+  .autoType_font_size {
+    font-size: 60px;
+  }
+
+  .echivmentIcon {
+    font-size: 30px;
+  }
+
+  .echivmentText {
+    font-size: 12px;
+  }
+}
+
+/* --------------------------------------------------------- 426 */
+
+@media (max-width: 426px) {
+  .Ad_image_info {
+    bottom: 2.5rem;
+    left: 2rem;
+  }
+
+  .Ad_image_container_size {
+    height: 350px;
+  }
+
+  .autoType_font_size {
+    font-size: 45px;
+  }
+
+  .echivmentIcon {
+    font-size: 30px;
+  }
+
+  .echivmentText {
+    font-size: 12px;
+  }
+  .Ad_image_info {
+    bottom: 2rem;
+    left: 3rem;
+  }
+
+  .design_ele_star_css {
+    left: -1.7rem;
+  }
+
+  .design_ele_star_size {
+    width: 35px;
+  }
+
+  .contact-css {
+    justify-content: center !important;
+  }
+}
+
+/* --------------------------------------------------------- 376 */
+
+@media (max-width: 376px) {
+  .card-width {
+    width: 10rem;
+    height: 14rem;
+    min-width: 10rem;
+    min-height: 14rem;
+  }
+
+  .Ad_image_container_size {
+    height: 250px;
+  }
+
+  .autoType_font_size {
+    font-size: 30px;
+    /*  red  ; */
+  }
+
+  .echivmentIcon {
+    font-size: 30px;
+    /*  red ; */
+  }
+
+  .echivmentText {
+    font-size: 10px;
+    /*  red ; */
+  }
+  .Ad_image_info {
+    bottom: 2rem;
+    left: 2rem;
+  }
+
+  .design_ele_star_css {
+    left: -1.1rem;
+    top: -0.8rem;
+    rotate: 300deg;
+  }
+
+  .design_ele_star_css {
+    left: -1.5rem;
+  }
+
+  .design_ele_star_size {
+    width: 30px;
+  }
+
+  .contact-css {
+    justify-content: center !important;
+  }
+}

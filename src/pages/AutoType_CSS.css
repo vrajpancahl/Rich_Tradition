@@ -1,0 +1,31 @@
+/* -----------------------------------------------------------  */
+.typewriter {
+  /* font-family: monospace; */
+  /* font-size: 24px; */
+  white-space: nowrap;
+  overflow: hidden;
+  display: flex; /* ensures content aligns left */
+  align-items: center;
+}
+
+.cursor {
+  display: inline-block;
+  width: 1ch;
+  animation: blink 0.7s steps(1) infinite;
+  color: black;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.autoType_font_size {
+  font-size: 65px;
+  color: gold;
+}

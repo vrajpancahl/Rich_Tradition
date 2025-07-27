@@ -3,11 +3,41 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+     user-select: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Poppins', sans-serif;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.txt-indigo{
+    color: indigo;
+}
+
+.bag-indigo{
+    background-color: indigo;
+}
+
+.sig-text-color{
+  color: #000237;
+}
+
+.sig-bag-color{
+    background-color: #000237;
+}
+
+.Font-Poppin{
+  font-family: 'Poppins'
+}
+
+.Font-DancingScript{
+  font-family: 'Dancing Script'
+}
+
+.background-patter{
+  background-image: url("./images/background_pattern.jpg");
 }

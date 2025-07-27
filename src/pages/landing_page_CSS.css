@@ -1,0 +1,122 @@
+.Ad_image_container_size {
+  height: 500px;
+}
+
+.card-width {
+  width: 12rem;
+  height: 17rem;
+  min-width: 12rem;
+  min-height: 17rem;
+  overflow: hidden;
+}
+
+.Ad_image_size {
+  width: 100%;
+}
+
+#Ad_image {
+  filter: brightness(70%);
+}
+
+.Ad_image_info {
+  bottom: 3rem;
+  left: 8rem;
+}
+
+.echivmentIcon {
+  font-size: 40px;
+}
+
+.echivmentText {
+  font-size: 15px;
+}
+
+.design_ele_star_css {
+  left: -2rem;
+  top: -1rem;
+  rotate: 300deg;
+}
+
+.design_ele_star_size {
+  width: 40px;
+}
+
+.design_ele_line_css {
+  bottom: -0.7rem;
+  left: -0.1rem;
+}
+
+.design_ele_line_size {
+  width: 100%;
+}
+
+.gradient-backgroundcolor {
+  width: 12rem;
+  background-color: transparent; /* For browsers that do not support gradients */
+  background-image: linear-gradient(rgb(77, 77, 77), transparent);
+}
+
+.font-style-Dancing-script {
+  font-family: "Dancing Script";
+}
+
+.text-transition {
+  transition: font-size 0.3s ease, color 0.3s ease;
+}
+
+.container-next-button {
+  transform: translateY(-50%);
+  top: 50%;
+  right: 1rem;
+}
+
+.container-previous-button {
+  transform: translateY(-50%);
+  top: 50%;
+  left: 1rem;
+}
+
+.nxt-prv-btn-bag {
+  background-image: radial-gradient(rgb(62, 62, 62), transparent, transparent);
+}
+
+.paging_dot {
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: gray;
+  display: inline-block;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.paging_dot:hover {
+  transform: scale(1.2);
+}
+
+.paging_dot_active {
+  background: indigo;
+}
+
+.container-pagging {
+  transform: translate(-50%, 0);
+  bottom: 1rem;
+  left: 50%;
+}
+
+.Height-100per {
+  height: 100%;
+}
+
+.image_transition {
+  transition-duration: 2s;
+}
+
+.Ad_image {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.Ad_image.fade-out {
+  opacity: 0;
+}
