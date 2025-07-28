@@ -154,7 +154,7 @@ function ImageContainer({ heading, images }) {
 }
 
 function LandingPage() {
-  const Ad_images_arr = [Slide_img1, Slide_img2,Slide_img3, Slide_img4, Slide_img5,Slide_img6,Slide_img7,Slide_img8];
+  const Ad_images_arr = [Slide_img1, Slide_img2,Slide_img3, Slide_img5,Slide_img6,Slide_img7,Slide_img8];
   const Ad_images_arr_len = Ad_images_arr.length;
   const [Ad_image_index, set_Ad_image_index] = useState(1);
   const [autoPlay, set_autoPlay] = useState(true);
@@ -187,7 +187,9 @@ function LandingPage() {
    function next_image() {
     setIsTransitioning(true);
     const cont= document.getElementById("Ad_image_container");
-    let tw = window.innerWidth;
+    const Ele = document.querySelector('[name="Ad_image"]');
+    let Ele_Values= Ele.getBoundingClientRect();
+    let tw= Ele_Values.width;
     if(Ad_image_index == Ad_images_arr_len){
       tw = (tw*(Ad_images_arr_len));
       cont.scrollBy({ left: -(tw), behavior: "smooth" });
@@ -290,7 +292,8 @@ function LandingPage() {
       <div className="m-0 p-0">
          
         <div
-          className="container-fluid position-relative  p-0 border border-0 "
+          className="position-relative  p-0 border border-0 "
+          style={{width:"100vw"}}
         >
           <div className="position-absolute d-flex flex-column text-light z-1 Ad_image_info">
               <div className="h2"><span className="d-flex justify-content-start fs-2">Expert in</span></div>
@@ -333,7 +336,11 @@ function LandingPage() {
             return (
               <div className="p-0">
               <img 
-              style={{ height: "100%", width: "100dvw"}}
+              name="Ad_image"
+              style={{ height: "100%",
+                 width: "100vw",
+                 flexShrink: "0",
+                scrollSnapAlign: "start"}}
               src={e} />
             </div>
           );
