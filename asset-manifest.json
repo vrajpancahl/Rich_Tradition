@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Rich_Tradition/static/css/main.e3377dc6.css",
-    "main.js": "/Rich_Tradition/static/js/main.ab7f16da.js",
+    "main.css": "/Rich_Tradition/static/css/main.fd1af571.css",
+    "main.js": "/Rich_Tradition/static/js/main.41a0f6fe.js",
     "static/js/453.96453769.chunk.js": "/Rich_Tradition/static/js/453.96453769.chunk.js",
     "static/media/mandap_img.jpg": "/Rich_Tradition/static/media/mandap_img.b9ddd997bf44fe760274.jpg",
     "static/media/ganpatiDecoration_img.jpg": "/Rich_Tradition/static/media/ganpatiDecoration_img.38075e8386fb6282dba3.jpg",
@@ -35,12 +35,12 @@
     "static/media/landScap.jpg": "/Rich_Tradition/static/media/landScap.57156e0116b71284f5f5.jpg",
     "static/media/design_ele_star.jpg": "/Rich_Tradition/static/media/design_ele_star.398a1283741f677f5f61.jpg",
     "index.html": "/Rich_Tradition/index.html",
-    "main.e3377dc6.css.map": "/Rich_Tradition/static/css/main.e3377dc6.css.map",
-    "main.ab7f16da.js.map": "/Rich_Tradition/static/js/main.ab7f16da.js.map",
+    "main.fd1af571.css.map": "/Rich_Tradition/static/css/main.fd1af571.css.map",
+    "main.41a0f6fe.js.map": "/Rich_Tradition/static/js/main.41a0f6fe.js.map",
     "453.96453769.chunk.js.map": "/Rich_Tradition/static/js/453.96453769.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3377dc6.css",
-    "static/js/main.ab7f16da.js"
+    "static/css/main.fd1af571.css",
+    "static/js/main.41a0f6fe.js"
   ]
 }
