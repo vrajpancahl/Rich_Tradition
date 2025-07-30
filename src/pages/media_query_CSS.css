@@ -2,11 +2,19 @@
   .autoType_font_size {
     font-size: 65px;
   }
+
+  .AutoType_fixed_height{
+    height: 65px;
+  }
 }
 
 @media (max-width: 1440px) {
   .autoType_font_size {
     font-size: 60px;
+  }
+
+  .AutoType_fixed_height{
+    height: 60px;
   }
 
   .echivmentIcon {
@@ -22,6 +30,11 @@
   .autoType_font_size {
     font-size: 60px;
   }
+
+  .AutoType_fixed_height{
+    height: 60px;
+  }
+
 
   .echivmentIcon {
     font-size: 30px;
@@ -42,6 +55,10 @@
 
   .autoType_font_size {
     font-size: 60px;
+  }
+
+  .AutoType_fixed_height{
+    height: 60px;
   }
 
   .echivmentIcon {
@@ -67,6 +84,10 @@
 
   .autoType_font_size {
     font-size: 45px;
+  }
+
+  .AutoType_fixed_height{
+    height: 45px;
   }
 
   .echivmentIcon {
@@ -110,19 +131,20 @@
 
   .autoType_font_size {
     font-size: 45px;
-    /* border: 1px solid red; */
-    /*  red  ; */
+  }
+
+  .AutoType_fixed_height{
+    height: 45px;
   }
 
   .echivmentIcon {
     font-size: 30px;
-    /*  red ; */
   }
 
   .echivmentText {
     font-size: 10px;
-    /*  red ; */
   }
+
   .Ad_image_info {
     bottom: 2rem;
     left: 2rem;

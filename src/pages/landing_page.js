@@ -80,8 +80,7 @@ function ImageContainer({ heading, images }) {
 
       {/* Card container */}
       <div
-        className="container-sm my-2 p-0  position-relative d-flex justify-content-center "
-        
+        className="container-sm my-2 p-1  position-relative d-flex justify-content-center "
       >
         {/* Service container start */}
         <div ref={scrollRef}
@@ -93,6 +92,14 @@ function ImageContainer({ heading, images }) {
             return (
               <div
                 className="card card-width d-flex align-items-center m-2"
+                onClick={()=>{
+                      window.scrollTo(0, document.body.scrollHeight);
+                      const cotect_container = document.getElementById("footer-contect-container");
+                      cotect_container.classList.add("text-size-animation");
+                      setTimeout(()=>{
+                        cotect_container.classList.remove("text-size-animation");
+                      },6000);
+                }}
                 onMouseEnter={(e) => {
                   hover_text_apply(e.currentTarget);
                 }}
@@ -154,7 +161,7 @@ function ImageContainer({ heading, images }) {
 }
 
 function LandingPage() {
-  const Ad_images_arr = [Slide_img1, Slide_img2,Slide_img3, Slide_img5,Slide_img6,Slide_img7,Slide_img8];
+  const Ad_images_arr = [Slide_img1, Slide_img2,Slide_img3,Slide_img4, Slide_img5,Slide_img6,Slide_img7,Slide_img8];
   const Ad_images_arr_len = Ad_images_arr.length;
   const [Ad_image_index, set_Ad_image_index] = useState(1);
   const [autoPlay, set_autoPlay] = useState(true);
@@ -293,12 +300,12 @@ function LandingPage() {
          
         <div
           className="position-relative  p-0 border border-0 "
-          style={{width:"100vw"}}
+          style={{width:"100%"}}
         >
           <div className="position-absolute d-flex flex-column text-light z-1 Ad_image_info">
               <div className="h2"><span className="d-flex justify-content-start fs-2">Expert in</span></div>
               <div className="mb-4" 
-              ><span ><AutoType /></span></div>
+              ><span ><AutoType/></span></div>
               <div className="d-flex flex-row flex-wrap ">
                   <div className="d-flex flex-row ">
                     <div className="d-flex align-items-center  ms-2  echivmentIcon">

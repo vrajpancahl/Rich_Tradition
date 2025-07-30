@@ -2,4 +2,29 @@
     display: flex;
     justify-content: start;
     align-items: center;
+    /* padding: 1px; */
+}
+
+.mobile_number{
+    color: blue;
+}
+
+.font-ease-transition{
+    transition: 2s ease;
+}
+
+
+.footer-contect-container-css{
+/* border: 1px solid red; */
+  font-size: 30px;
+  width: 180px;
+  height: 60px;
+}
+
+.text-size-animation{
+    animation: mymove 2s infinite;
+}
+
+@keyframes mymove {
+  50% {font-size: 40px;}
 }

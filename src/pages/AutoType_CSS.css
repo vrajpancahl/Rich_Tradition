@@ -1,7 +1,5 @@
 /* -----------------------------------------------------------  */
 .typewriter {
-  /* font-family: monospace; */
-  /* font-size: 24px; */
   white-space: nowrap;
   overflow: hidden;
   display: flex; /* ensures content aligns left */
@@ -26,6 +24,5 @@
 }
 
 .autoType_font_size {
-  /* font-size: 65px; */
   color: gold;
 }
