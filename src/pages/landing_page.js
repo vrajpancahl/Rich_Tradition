@@ -66,8 +66,9 @@ function ImageContainer({ heading, images }) {
           
         </div>
 
-        <div className="position-relative text-start h2 txt-indigo ">
-          <div className="position-absolute design_ele_line_css">
+        <div className="position-relative text-start h2 ">
+          <div className="position-absolute design_ele_line_css"
+          style={{zIndex: "-1"}}>
             <img 
             className="design_ele_line_size"
             src={design_ele_line}/>
