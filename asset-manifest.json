@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Rich_Tradition/static/css/main.b02fbc51.css",
-    "main.js": "/Rich_Tradition/static/js/main.00f9d257.js",
+    "main.js": "/Rich_Tradition/static/js/main.b633ee7b.js",
     "static/js/453.96453769.chunk.js": "/Rich_Tradition/static/js/453.96453769.chunk.js",
     "static/media/mandap_img.jpg": "/Rich_Tradition/static/media/mandap_img.b9ddd997bf44fe760274.jpg",
     "static/media/ganpatiDecoration_img.jpg": "/Rich_Tradition/static/media/ganpatiDecoration_img.38075e8386fb6282dba3.jpg",
@@ -18,13 +18,18 @@
     "static/media/dholi_img.jpg": "/Rich_Tradition/static/media/dholi_img.9e224dabbccaf5bc8581.jpg",
     "static/media/stage_img.jpg": "/Rich_Tradition/static/media/stage_img.72eb1a5599bc52e6a643.jpg",
     "static/media/img2.jpg": "/Rich_Tradition/static/media/img2.c4a06ad1274f2e84fccb.jpg",
+    "static/media/shadow_img.jpg": "/Rich_Tradition/static/media/shadow_img.e1ed3fafa40b4b097f79.jpg",
     "static/media/makeUp_img.jpg": "/Rich_Tradition/static/media/makeUp_img.5dc93236eb518b1e6b13.jpg",
     "static/media/ballonDecoration_img.jpg": "/Rich_Tradition/static/media/ballonDecoration_img.8ef78ea3214fd16b32cf.jpg",
     "static/media/catering_img.jpg": "/Rich_Tradition/static/media/catering_img.c186de320b1cef650093.jpg",
+    "static/media/logistics_img.jpg": "/Rich_Tradition/static/media/logistics_img.89def3ddb05bb500913a.jpg",
+    "static/media/hospitality_img.jpg": "/Rich_Tradition/static/media/hospitality_img.2da6de839ae21af4cfe2.jpg",
     "static/media/ntr_flower.jpg": "/Rich_Tradition/static/media/ntr_flower.6059a6bb87b2b838c554.jpg",
     "static/media/carDecoretion_img.jpg": "/Rich_Tradition/static/media/carDecoretion_img.5f5dc606052272a45b15.jpg",
     "static/media/Dj_img.jpg": "/Rich_Tradition/static/media/Dj_img.40be2128186c1dbf70fa.jpg",
     "static/media/background_pattern.jpg": "/Rich_Tradition/static/media/background_pattern.92cd02f1f636db4f02f3.jpg",
+    "static/media/porter_img.jpg": "/Rich_Tradition/static/media/porter_img.3266f3d07253e2adca2f.jpg",
+    "static/media/overAllManagement_img.jpg": "/Rich_Tradition/static/media/overAllManagement_img.fa280c1a73bc75e88e39.jpg",
     "static/media/Slide_img5.jpg": "/Rich_Tradition/static/media/Slide_img5.2af64b9030c9b20925e5.jpg",
     "static/media/bridelEntry_img.jpg": "/Rich_Tradition/static/media/bridelEntry_img.dd9a48cce89827d3f678.jpg",
     "static/media/Slide_img1.jpg": "/Rich_Tradition/static/media/Slide_img1.125feb4e4b2fd37916f8.jpg",
@@ -36,11 +41,11 @@
     "static/media/design_ele_star.jpg": "/Rich_Tradition/static/media/design_ele_star.398a1283741f677f5f61.jpg",
     "index.html": "/Rich_Tradition/index.html",
     "main.b02fbc51.css.map": "/Rich_Tradition/static/css/main.b02fbc51.css.map",
-    "main.00f9d257.js.map": "/Rich_Tradition/static/js/main.00f9d257.js.map",
+    "main.b633ee7b.js.map": "/Rich_Tradition/static/js/main.b633ee7b.js.map",
     "453.96453769.chunk.js.map": "/Rich_Tradition/static/js/453.96453769.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b02fbc51.css",
-    "static/js/main.00f9d257.js"
+    "static/js/main.b633ee7b.js"
   ]
 }
