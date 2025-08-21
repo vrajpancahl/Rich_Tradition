@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Rich_Tradition/static/css/main.b02fbc51.css",
-    "main.js": "/Rich_Tradition/static/js/main.b633ee7b.js",
+    "main.js": "/Rich_Tradition/static/js/main.29f9934c.js",
     "static/js/453.96453769.chunk.js": "/Rich_Tradition/static/js/453.96453769.chunk.js",
     "static/media/mandap_img.jpg": "/Rich_Tradition/static/media/mandap_img.b9ddd997bf44fe760274.jpg",
     "static/media/ganpatiDecoration_img.jpg": "/Rich_Tradition/static/media/ganpatiDecoration_img.38075e8386fb6282dba3.jpg",
@@ -41,11 +41,11 @@
     "static/media/design_ele_star.jpg": "/Rich_Tradition/static/media/design_ele_star.398a1283741f677f5f61.jpg",
     "index.html": "/Rich_Tradition/index.html",
     "main.b02fbc51.css.map": "/Rich_Tradition/static/css/main.b02fbc51.css.map",
-    "main.b633ee7b.js.map": "/Rich_Tradition/static/js/main.b633ee7b.js.map",
+    "main.29f9934c.js.map": "/Rich_Tradition/static/js/main.29f9934c.js.map",
     "453.96453769.chunk.js.map": "/Rich_Tradition/static/js/453.96453769.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b02fbc51.css",
-    "static/js/main.b633ee7b.js"
+    "static/js/main.29f9934c.js"
   ]
 }
