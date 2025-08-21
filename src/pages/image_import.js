@@ -26,7 +26,12 @@ import landScap from '../images/landScap.jpg';
 import design_ele_line from '../images/design_ele_line.jpg';
 import design_ele_star from '../images/design_ele_star.jpg';
 import mandap_img from '../images/mandap_img.jpg';
+import shadow_img from '../images/shadow_img.jpg';
+import overAllManagement_img from '../images/overAllManagement_img.jpg';
+import porter_img from '../images/porter_img.jpg';
+import hospitality_img from '../images/hospitality_img.jpg';
+import logistics_img from '../images/logistics_img.jpg';
 
 export{
-    Slide_img1, Slide_img2,Slide_img3, Slide_img4, Slide_img5,Slide_img6,Slide_img7,Slide_img8,logo,chori_img,dholi_img,MahendiDecoretion_img,Dj_img,bridelEntry_img,carDecoretion_img,laganGeet_img,stage_img, ntr_flower,arti_flower, catering_img, ganpatiDecoration,lighting_img,ballonDecoration_img, full_logo, landScap, design_ele_line, design_ele_star, mandap_img
+    Slide_img1, Slide_img2,Slide_img3, Slide_img4, Slide_img5,Slide_img6,Slide_img7,Slide_img8,logo,chori_img,dholi_img,MahendiDecoretion_img,Dj_img,bridelEntry_img,carDecoretion_img,laganGeet_img,stage_img, ntr_flower,arti_flower, catering_img, ganpatiDecoration,lighting_img,ballonDecoration_img, full_logo, landScap, design_ele_line, design_ele_star, mandap_img, shadow_img,overAllManagement_img, porter_img,hospitality_img,logistics_img
 }

@@ -209,6 +209,29 @@ function LandingPage() {
     setTimeout(() => setIsTransitioning(false), 500);
     }
 
+  const eventMagers = [
+    {
+      title: "Hospitality",
+      imageName: "hospitality_img.jpg",
+    },
+    {
+      title: "Logistics",
+      imageName: "logistics_img.jpg",
+    },
+    {
+      title: "Shadow",
+      imageName: "shadow_img.jpg",
+    },
+    {
+      title: "Porter",
+      imageName: "stage_img.jpg",
+    },
+    {
+      title: "Over All Management",
+      imageName: "overAllManagement_img.jpg",
+    },
+  ];
+
   const weddingService = [
     {
       title: "Chori",
@@ -356,12 +379,22 @@ function LandingPage() {
         </div>
       </div>
 
-      <ImageContainer heading={["Wedding"," Service"]} images={weddingService} />
+      <ImageContainer
+        heading={["Event","Managers"]}
+        images={eventMagers}
+      />
+
+      <ImageContainer 
+      heading={["Wedding"," Service"]}
+       images={weddingService} />
+
       <ImageContainer
         heading={["Special"," Services"]}
         images={specialServiceForWedding}
       />
+
       <ImageContainer heading={["Flower"," Decoration"]} images={flowerDecoration} />
+
       <ImageContainer
         heading={["Festival"," Decoration"]}
         images={festivalDecoration}
