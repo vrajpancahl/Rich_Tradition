@@ -224,7 +224,7 @@ function LandingPage() {
     },
     {
       title: "Porter",
-      imageName: "stage_img.jpg",
+      imageName: "porter_img.jpg",
     },
     {
       title: "Over All Management",
