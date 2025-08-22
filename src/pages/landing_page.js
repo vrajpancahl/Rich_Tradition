@@ -66,7 +66,7 @@ function ImageContainer({ heading, images }) {
           
         </div>
 
-        <div className="position-relative text-start h2 ">
+        <div className="position-relative text-start h2 txt-indigo">
           <div className="position-absolute design_ele_line_css z-n1"
           >
             <img 
