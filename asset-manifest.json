@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.47497a3c.css",
+    "main.css": "/static/css/main.6824bc9a.css",
     "main.js": "/static/js/main.e68d8894.js",
     "static/js/453.96453769.chunk.js": "/static/js/453.96453769.chunk.js",
     "static/media/mandap_img.jpg": "/static/media/mandap_img.b9ddd997bf44fe760274.jpg",
@@ -40,12 +40,12 @@
     "static/media/landScap.jpg": "/static/media/landScap.57156e0116b71284f5f5.jpg",
     "static/media/design_ele_star.jpg": "/static/media/design_ele_star.398a1283741f677f5f61.jpg",
     "index.html": "/index.html",
-    "main.47497a3c.css.map": "/static/css/main.47497a3c.css.map",
+    "main.6824bc9a.css.map": "/static/css/main.6824bc9a.css.map",
     "main.e68d8894.js.map": "/static/js/main.e68d8894.js.map",
     "453.96453769.chunk.js.map": "/static/js/453.96453769.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.47497a3c.css",
+    "static/css/main.6824bc9a.css",
     "static/js/main.e68d8894.js"
   ]
 }
