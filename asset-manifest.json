@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.47497a3c.css",
-    "main.js": "/static/js/main.22990454.js",
+    "main.js": "/static/js/main.189bf8b2.js",
     "static/js/453.96453769.chunk.js": "/static/js/453.96453769.chunk.js",
     "static/media/mandap_img.jpg": "/static/media/mandap_img.b9ddd997bf44fe760274.jpg",
     "static/media/ganpatiDecoration_img.jpg": "/static/media/ganpatiDecoration_img.38075e8386fb6282dba3.jpg",
@@ -41,11 +41,11 @@
     "static/media/design_ele_star.jpg": "/static/media/design_ele_star.398a1283741f677f5f61.jpg",
     "index.html": "/index.html",
     "main.47497a3c.css.map": "/static/css/main.47497a3c.css.map",
-    "main.22990454.js.map": "/static/js/main.22990454.js.map",
+    "main.189bf8b2.js.map": "/static/js/main.189bf8b2.js.map",
     "453.96453769.chunk.js.map": "/static/js/453.96453769.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.47497a3c.css",
-    "static/js/main.22990454.js"
+    "static/js/main.189bf8b2.js"
   ]
 }
