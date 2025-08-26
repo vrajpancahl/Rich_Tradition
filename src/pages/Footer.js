@@ -33,7 +33,7 @@ function Footer() {
           <div className="m-1 fs-6 fs-md-4  text-light d-flex flex-wrap flex-column p-0">
             <div className=" contact-css">
               <MdEmail  className="ms-2" />
-              <span  className="font-ease-transition"><a id="mobile_number" href="mailto:vrajpanchal1110@gmail.com">Email</a></span>
+              <span  className="font-ease-transition"><a id="mobile_number" href="mailto:dhruvpanchal17301@gmail.com">Email</a></span>
             </div>
           </div>
 
