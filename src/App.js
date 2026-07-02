@@ -9,7 +9,7 @@ import TermsAndCondition from './pages/TermsAndCondition';
 function App() {
   const router = createBrowserRouter([
     {
-      path: `/Rich_Tradition/`,
+      path: `/`,
       element: <LandingPage />,
       errorElement: <ErrorPage />
     },
