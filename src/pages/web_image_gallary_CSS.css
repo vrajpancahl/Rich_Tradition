@@ -1,0 +1,44 @@
+.webImageGallary-main-container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image-container {
+    
+    gap:15px;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: mansor;
+}
+
+.image-card img{
+    border-radius: 10;
+    object-fit: cover;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: 10px;
+  gap: 15px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+
+}
+
+.my-masonry-grid {
+  display: flex;
+  margin-left: -15px;
+}
+.my-masonry-grid_column {
+  padding-left: 15px;
+}
+.my-masonry-grid_column img {
+  margin-bottom: 15px;
+}

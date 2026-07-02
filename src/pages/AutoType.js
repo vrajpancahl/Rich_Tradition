@@ -35,9 +35,9 @@ const AutoType = () => {
   }, [charIndex, textIndex, texts]);
 
   return (
-    <div className="typewriter">
-        <span className='Font-DancingScript autoType_font_size'>{currentText}</span>
-      <span className="cursor Font-DancingScript autoType_font_size">|</span>
+    <div className="typewriter autotype-container-width txt-gold">
+        <span className='Font-DancingScript autoType_font_size '>{currentText}</span>
+      <span className="cursor Font-DancingScript autoType_font_size ">|</span>
     </div>
   );
 };

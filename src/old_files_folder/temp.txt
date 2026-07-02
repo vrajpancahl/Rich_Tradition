@@ -1,0 +1,122 @@
+
+process.env.PUBLIC_URL + "IMG-20190328-WA0038.jpg",
+process.env.PUBLIC_URL + "IMG-20190328-WA0039.jpg",
+process.env.PUBLIC_URL + "IMG-20190328-WA0047.jpg",
+process.env.PUBLIC_URL + "IMG-20200819-WA0051.jpg",
+process.env.PUBLIC_URL + "IMG-20200819-WA0059.jpg",
+process.env.PUBLIC_URL + "IMG-20200819-WA0081.jpg",
+process.env.PUBLIC_URL + "IMG-20200819-WA0086.jpg",
+process.env.PUBLIC_URL + "IMG-20200819-WA0089.jpg",
+process.env.PUBLIC_URL + "IMG_20220216_202505.jpg",
+process.env.PUBLIC_URL + "IMG_20220415_144529.jpg",
+process.env.PUBLIC_URL + "IMG_20220415_144619.jpg",
+process.env.PUBLIC_URL + "IMG_20220511_192127.jpg",
+process.env.PUBLIC_URL + "IMG_20230605_105818.jpg",
+process.env.PUBLIC_URL + "IMG_20230605_120146.jpg",
+process.env.PUBLIC_URL + "WhatsApp Image 2025-01-22 at 8.01.35 PM (1).jpeg",
+process.env.PUBLIC_URL + "WhatsApp Image 2026-03-30 at 8.26.08 PM.jpeg",
+process.env.PUBLIC_URL + "WhatsApp Image 2026-03-30 at 8.26.39 PM (1).jpeg",
+process.env.PUBLIC_URL + "WhatsApp Image 2026-03-30 at 8.26.39 PM.jpeg",
+process.env.PUBLIC_URL + "WhatsApp Image 2026-03-30 at 8.27.14 PM.jpeg",
+process.env.PUBLIC_URL + "WhatsApp Image 2026-03-30 at 8.27.15 PM (1).jpeg",
+process.env.PUBLIC_URL + "WhatsApp Image 2026-03-30 at 8.27.15 PM.jpeg",
+process.env.PUBLIC_URL + "WhatsApp Image 2026-03-30 at 8.37.03 PM (1).jpeg",
+process.env.PUBLIC_URL + "WhatsApp Image 2026-03-30 at 8.37.04 PM.jpeg",
+
+
+ 
+process.env.PUBLIC_URL + "249254 WhatsApp Image 2026-03-30 at 8.20.37 PM (1).jpeg",
+ 
+process.env.PUBLIC_URL + "WhatsApp Image 2026-03-30 at 8.23.11 PM.jpeg",
+ 
+process.env.PUBLIC_URL + "WhatsApp Image 2026-03-30 at 8.26.08 PM (1).jpeg",
+ 
+process.env.PUBLIC_URL + "WhatsApp Image 2026-03-30 at 8.27.23 PM (2).jpeg",
+ 
+process.env.PUBLIC_URL + "WhatsApp Image 2026-03-30 at 8.27.26 PM.jpeg",
+ 
+process.env.PUBLIC_URL + "WhatsApp Image 2026-03-30 at 8.28.15 PM (1).jpeg",
+ 
+process.env.PUBLIC_URL + "WhatsApp Image 2026-03-30 at 8.28.15 PM.jpeg",
+ 
+process.env.PUBLIC_URL + "WhatsApp Image 2026-03-30 at 8.28.18 PM (1).jpeg",
+ 
+process.env.PUBLIC_URL + "WhatsApp Image 2026-03-30 at 8.28.18 PM.jpeg",
+ 
+process.env.PUBLIC_URL + " WhatsApp Image 2026-03-30 at 8.36.23 PM.jpeg",
+ 
+process.env.PUBLIC_URL + "WhatsApp Image 2026-03-30 at 8.36.54 PM (1).jpeg",
+ 
+process.env.PUBLIC_URL + "WhatsApp Image 2026-03-30 at 8.36.55 PM.jpeg",
+ 
+process.env.PUBLIC_URL + "WhatsApp Image 2026-03-30 at 8.36.56 PM (1).jpeg",
+process.env.PUBLIC_URL + "WhatsApp Image 2026-03-30 at 8.36.57 PM.jpeg",
+
+Original Text,1) camelCase,2) Proper Title Case
+BRIDAL ENTERY,bridalEntry,Bridal Entry
+CAR_DECORATION,carDecoration,Car Decoration
+DANCE CHOREOGRAPHERS,danceChoreographers,Dance Choreographers
+DHOLI,dholi,Dholi
+GHODA GADI,ghodaGadi,Ghoda Gadi
+MACKUP,makeup,Makeup
+MEHDIARTIST,mehndiArtist,Mehndi Artist
+POSTERS AND PRINTS,postersAndPrints,Posters And Prints
+SCREEN_,screen,Screen
+SOUND_OR_DJ,soundOrDj,Sound Or Dj
+SPECIAL EFFECTS,specialEffects,Special Effects
+
+<div className="container-sm position-realative image-container mt-3 
+         flex-wrap bg-white ">
+         {/* flex-column-reverse  */}
+          {
+            // event_images.map((e) => {
+            //   return (
+            //     e.id == category_id  && (e.images).map((k) => {
+            //       return (
+            //         <div class="animation-enabled-container image-card z-1">
+            //           <img className="rounded" src= { k} />
+            //         </div>
+            //       )
+            //     })
+
+            //   );
+            // })
+
+            event_images.filter(e => e.id == category_id)
+              .map(e =>
+                e.images.map((k, index) => (
+                  <div key={index} className="animation-enabled-container image-card z-1">
+                    <img className="rounded" src={k} />
+                  </div>
+                ))
+              )
+          }
+        </div>{/* <div className="gallary container-sm position-realative image-container mt-3 flex-wrap bg-white ">
+         */}
+         
+         {/* flex-column-reverse  */}
+          {
+            // event_images.map((e) => {
+            //   return (
+            //     e.id == category_id  && (e.images).map((k) => {
+            //       return (
+            //         <div class="animation-enabled-container image-card z-1">
+            //           <img className="rounded" src= { k} />
+            //         </div>
+            //       )
+            //     })
+
+            //   );
+            // })
+
+          //   event_images.filter(e => e.id == category_id)
+          //     .map(e =>
+          //       e.images.map((k, index) => (
+          //         <div key={index} className="animation-enabled-container image-card z-1">
+          //           <img className="rounded" src={k} />
+          //         </div>
+          //       ))
+          //     )
+          // }
+         
+        </div>

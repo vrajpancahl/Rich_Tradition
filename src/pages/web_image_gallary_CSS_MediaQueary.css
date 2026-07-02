@@ -1,0 +1,11 @@
+@media screen and (min-width: 325px) {
+  .image-card img{
+    width: 310px;
+  }
+}
+
+@media screen and (min-width: 426px) {
+  .image-card img{
+    width: 380px;
+  }
+}

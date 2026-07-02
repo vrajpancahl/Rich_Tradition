@@ -1,8 +1,7 @@
-/* -----------------------------------------------------------  */
+
 .typewriter {
   white-space: nowrap;
   overflow: hidden;
-  display: flex; /* ensures content aligns left */
   align-items: center;
 }
 
@@ -10,7 +9,6 @@
   display: inline-block;
   width: 1ch;
   animation: blink 0.7s steps(1) infinite;
-  color: black;
 }
 
 @keyframes blink {
@@ -23,7 +21,8 @@
   }
 }
 
-.autoType_font_size {
-  color: gold;
-  height: 95px;
+
+.autotype-container-width{
+  width: 330px;
 }
+

@@ -10,17 +10,14 @@
   overflow: hidden;
 }
 
-.Ad_image_size {
-  width: 100%;
-}
-
 #Ad_image {
   filter: brightness(70%);
 }
 
 .Ad_image_info {
-  bottom: 3rem;
-  left: 8rem;
+  /* bottom: 3rem; */
+  /* left: 8rem; */
+ /* margin-left: 50px; */
 }
 
 .echivmentIcon {
@@ -80,43 +77,57 @@
   background-image: radial-gradient(rgb(62, 62, 62), transparent, transparent);
 }
 
-.paging_dot {
-  height: 5px;
-  width: 5px;
-  border-radius: 50%;
-  background-color: gray;
-  display: inline-block;
-  margin-left: 10px;
-  cursor: pointer;
-}
-
-.paging_dot:hover {
-  transform: scale(1.2);
-}
-
-.paging_dot_active {
-  background: indigo;
-}
-
-.container-pagging {
-  transform: translate(-50%, 0);
-  bottom: 1rem;
-  left: 50%;
-}
-
 .Height-100per {
   height: 100%;
 }
 
-.image_transition {
-  transition-duration: 2s;
+.rounded-head{
+  width: 100%;
+  background-color: white ;
+  padding: 55px; 
 }
 
-.Ad_image {
-  opacity: 1;
-  transition: opacity 0.5s ease-in-out;
+.HamburgerMenu{
+  cursor: pointer;
+  right: 40px;
+  top: 20px;
 }
 
-.Ad_image.fade-out {
-  opacity: 0;
+.HamburgerMenu-tab-width{
+  width: 300px !important;
+}
+
+#HamburgerMenu-tab-list{
+  list-style-type: none;
+  row-gap: 20px;
+  cursor: pointer;
+}
+
+#HamburgerMenu-tab-list li:hover{
+  color: white;
+}
+
+.nav-link,
+.nav-link:visited,
+.nav-link:hover,
+.nav-link:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+#sidebar-menu{
+  /* display: none; */
+  width: 0px;
+  position: fixed;
+  z-index: 2;
+  right: 0;
+  top: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  text-wrap-mode: nowrap;
+  transition: width 0.5s ease-in-out, margin-left 0.5s ease-in-out;
+}
+
+.display-none{
+  display: none;
 }
