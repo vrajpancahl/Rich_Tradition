@@ -14,21 +14,34 @@ function App() {
       errorElement: <ErrorPage />
     },
     {
+      path: `/Rich_Tradition/`,
+      element: <LandingPage />,
+      errorElement: <ErrorPage />
+    },
+    {
       path: "/landing_page",
-      element: <LandingPage />
+      element: <LandingPage />,
+      errorElement: <ErrorPage />
     },
     {
       path: "/about_us",
-      element: <AboutUs />
+      element: <AboutUs />,
+      errorElement: <ErrorPage />
     },
-      {
-        path: "/WebImageGallary/:category_id/:category_title",
-        element: <Web_image_gallary />,
-        errorElement: <ErrorPage />
-      },
-      {
+    {
+      path: "/WebImageGallary/:category_id/:category_title",
+      element: <Web_image_gallary />,
+      errorElement: <ErrorPage />
+    },
+    {
       path: "/termsAndConditions",
-      element: <TermsAndCondition />
+      element: <TermsAndCondition />,
+      errorElement: <ErrorPage />
+    },
+    {
+      path: "*",
+      element : <ErrorPage />,
+      errorElement: <ErrorPage />
     },
   
   ])
